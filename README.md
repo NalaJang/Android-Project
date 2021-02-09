@@ -91,7 +91,7 @@
   <img src="https://user-images.githubusercontent.com/73895803/107331668-89b87b80-6af6-11eb-95c7-39f0388a5b28.PNG" width = "235" height = "450"/>
   </p><br />
   
-    * 배송지 추가 예시
+    * 배송지 추가 예시(다음 에서 제공하는 우편번호 API 이용)
   <p float = "left">
   <img src="https://user-images.githubusercontent.com/73895803/107331671-8a511200-6af6-11eb-9db9-c54be3df6374.PNG" width = "235" height = "450"/>
   <img src="https://user-images.githubusercontent.com/73895803/107331674-8ae9a880-6af6-11eb-9459-a1ec2d47ddac.PNG" width = "235" height = "450"/>
