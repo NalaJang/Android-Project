@@ -99,7 +99,7 @@
   <img src="https://user-images.githubusercontent.com/73895803/107331676-8b823f00-6af6-11eb-8320-230feb7d09cf.PNG" width = "235" height = "450"/>
   </p><br />
 
-	* 주문 내역과 포인트 내역
+	* 주문 내역과 포인트 내역(쇼핑몰과 연동이 되어있다는 전제)
   <img src="https://user-images.githubusercontent.com/73895803/107336500-83c59900-6afc-11eb-9163-880101f94066.PNG" width = "235" height = "450"/>
   <img src="https://user-images.githubusercontent.com/73895803/107336464-78726d80-6afc-11eb-807c-112041f9e518.PNG" width = "235" height = "450"/><p />
   
