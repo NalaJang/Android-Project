@@ -59,7 +59,7 @@
 * 코디네이터 목록과 검색 화면
   * 코디네이터를 등록 후 다시 검색 메뉴에 내가 등록한 코디네이터가 제외 된 목록으로 나오는 모습을 확인 할 수 있다.
   <p float = "left>
-  <img src="https://user-images.githubusercontent.com/73895803/107330196-94721100-6af4-11eb-994f-744d0f6e7a7d.PNG" width = "235" height = "450"/>
+  <img src="https://user-images.githubusercontent.com/73895803/107469499-2b020900-6bad-11eb-9664-14e239969f38.PNG" width = "235" height = "450"/>
   <img src="https://user-images.githubusercontent.com/73895803/107336652-b1124700-6afc-11eb-9928-1222830f263f.PNG" width = "235" height = "450"/>
   </p>
 
