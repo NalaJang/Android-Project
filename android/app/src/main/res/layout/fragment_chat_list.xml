@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/userProfile_chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/userImage_list"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_baseline_person_24"
+            />
+
+        <TextView
+            android:id="@+id/userId_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/userImage_list"
+            android:layout_alignTop="@id/userImage_list"
+            android:textSize="20dp"
+            android:text="사용자 아이디"
+            />
+
+        <TextView
+            android:id="@+id/content_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/userImage_list"
+            android:layout_alignBottom="@id/userImage_list"
+            android:layout_centerHorizontal="true"
+            android:maxWidth="200dp"
+            android:textSize="15dp"
+            android:text="대화명"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:background="#66bdbdbd"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <!--TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="최대 3명의 코디네이터를 등록 할 수 있습니다."
+        / -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textColor="#660C0C0C"
+        android:text="상담사"
+        />
+
+    <TextView
+        android:id="@+id/text_chat_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:text="상단의 아이콘을 눌러 코디네이터를 등록해보세요."
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_chatList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        />
+</LinearLayout>

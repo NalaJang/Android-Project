@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- 아이디 찾기 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="아이디 찾기"/>
+
+            <EditText
+                android:id="@+id/userName_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="이름"/>
+
+            <EditText
+                android:id="@+id/userPhone_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="휴대폰번호(01012345678)"/>
+
+            <Button
+                android:id="@+id/button_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:text="아이디 찾기"/>
+
+
+            <!-- 비밀번호 찾기 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="비밀번호 찾기"/>
+
+            <EditText
+                android:id="@+id/userId_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="아이디"/>
+
+            <EditText
+                android:id="@+id/userPhone2_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="휴대폰번호(01012345678)"/>
+
+            <Button
+                android:id="@+id/button2_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:text="비밀번호 찾기"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

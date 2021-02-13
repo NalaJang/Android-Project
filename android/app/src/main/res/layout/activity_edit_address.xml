@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".AddressActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="배송지 이름"
+                />
+
+            <EditText
+                android:id="@+id/nickName_editAddr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:hint="최대 6글자"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="받는 분"
+                />
+
+            <EditText
+                android:id="@+id/name_editAddr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:hint="이름"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="전화번호"
+                />
+
+            <EditText
+                android:id="@+id/phone_editAddr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:hint="숫자만 입력"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="기본 주소"
+                />
+
+            <EditText
+                android:id="@+id/address1_editAddr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:hint="기본 주소"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="상세 주소"
+                    />
+
+                <EditText
+                    android:id="@+id/address2_editAddr"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="상세 주소"
+                    android:textSize="20dp"
+                    />
+
+                <Button
+                    android:id="@+id/search_eidtAddr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/address2_editAddr"
+                    android:textColor="@color/black"
+                    android:text="주소 검색"
+                    />
+            </RelativeLayout>
+
+            <CheckBox
+                android:id="@+id/check_editAddr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기본 배송지로 설정"/>
+
+            <Button
+                android:id="@+id/button_editAddr"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:background="@color/button"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:text="수정"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
