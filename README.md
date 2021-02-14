@@ -33,9 +33,10 @@ http 프로토콜 통신을 이용하여 서버에 사용자의 입력값을 전
   <p float = "left">
    <img src="https://user-images.githubusercontent.com/73895803/107865699-b67ce200-6eac-11eb-90aa-779d9812a84c.PNG" width = "250"/>
    <img src="https://user-images.githubusercontent.com/73895803/107865700-b7157880-6eac-11eb-8c63-d6c8156c4847.PNG" width = "550"/>
-   <img src="https://user-images.githubusercontent.com/73895803/107866396-c3510400-6eb3-11eb-938a-33b0753cf3ff.PNG" width = "450"/>
-   <img src="https://user-images.githubusercontent.com/73895803/107865920-00ff5e00-6eaf-11eb-940a-60cd055fcb75.PNG" width = "450"/>
   </p><br />
+  
+   <img src="https://user-images.githubusercontent.com/73895803/107866596-f6949280-6eb5-11eb-9a54-3e5af1107e47.PNG" />
+
   
 ## 구현 화면
 ### 메인(로그인 화면)
