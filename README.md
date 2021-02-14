@@ -28,7 +28,7 @@
 
 http 프로토콜 통신을 이용하여 서버에 사용자의 입력값을 전달하면<br />
 서버에서 사용자의 정보를 확인하고 결과값을 반환해줍니다.<br />
-이 때, 클라이언트에게 필요한 값들은 html 문서에서 가져와 jsoup 을 이용해 파싱하였습니다.
+이 때, 클라이언트에게 필요한 값들은 html 문서에서 가져와 jsoup 을 이용해 파싱합니다.
 
   <p float = "left">
    <img src="https://user-images.githubusercontent.com/73895803/107865699-b67ce200-6eac-11eb-90aa-779d9812a84c.PNG" width = "250"/>
@@ -95,7 +95,7 @@ http 프로토콜 통신을 이용하여 서버에 사용자의 입력값을 전
   <img src="https://user-images.githubusercontent.com/73895803/107331108-c8016b00-6af5-11eb-8c75-24f78a53a596.PNG" width = "235" height = "450"/>
   </p><br />
   
-  <img src="https://user-images.githubusercontent.com/73895803/107866493-f5169a80-6eb4-11eb-92e6-27a0785275de.gif" height = "450"/>
+  <img src="https://user-images.githubusercontent.com/73895803/107866493-f5169a80-6eb4-11eb-92e6-27a0785275de.gif" />
 
 * 더보기 메뉴에선 나의 정보들을 확인 및 수정이 가능합니다.
 	* 내 정보
