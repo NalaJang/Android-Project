@@ -24,6 +24,20 @@
 	* 바디 프로필 등록
 	* 문의 내역
 
+## 서버에 알리기
+
+http 프로토콜 통신을 이용하여 서버에 사용자의 입력값을 전달하면<br />
+서버에서 사용자의 정보를 확인하고 결과값을 반환해줍니다.<br />
+이 때, 클라이언트에게 필요한 값들은 html 문서에서 가져와 jsoup 을 이용해 파싱합니다.
+
+  <p float = "left">
+   <img src="https://user-images.githubusercontent.com/73895803/107865699-b67ce200-6eac-11eb-90aa-779d9812a84c.PNG" width = "250"/>
+   <img src="https://user-images.githubusercontent.com/73895803/107865700-b7157880-6eac-11eb-8c63-d6c8156c4847.PNG" width = "550"/>
+  </p><br />
+  
+   <img src="https://user-images.githubusercontent.com/73895803/107866596-f6949280-6eb5-11eb-9a54-3e5af1107e47.PNG" />
+
+  
 ## 구현 화면
 ### 메인(로그인 화면)
 
@@ -35,7 +49,7 @@
   
   <p float = "left">
    <img src="https://user-images.githubusercontent.com/73895803/107322265-7f42b580-6ae7-11eb-8b9d-1fd2dad5e800.PNG" width = "250" />
-   <img src="https://user-images.githubusercontent.com/73895803/107322269-8073e280-6ae7-11eb-82ca-b5ea699df4ad.PNG" width = "250" "/>
+   <img src="https://user-images.githubusercontent.com/73895803/107322269-8073e280-6ae7-11eb-82ca-b5ea699df4ad.PNG" width = "250" />
   </p><br />
   
 * 아이디 비밀번호 찾기
@@ -57,14 +71,14 @@
   </p><br />
 
 * 코디네이터 목록과 검색 화면
-  * 코디네이터를 등록 후 다시 검색 메뉴에 내가 등록한 코디네이터가 제외 된 목록으로 나오는 모습을 확인 할 수 있다.
+  * 코디네이터를 등록 후 다시 검색 메뉴에 내가 등록한 코디네이터가 제외 된 목록으로 나오는 모습을 확인 할 수 있습니다.
 
   <img src="https://user-images.githubusercontent.com/73895803/107469499-2b020900-6bad-11eb-9664-14e239969f38.PNG" width = "235" height = "450"/>
   <img src="https://user-images.githubusercontent.com/73895803/107336652-b1124700-6afc-11eb-9928-1222830f263f.PNG" width = "235" height = "450"/>
-
+  <img src="https://user-images.githubusercontent.com/73895803/107866334-fe066c80-6eb2-11eb-9970-692eaa0aa89a.gif" width = "235" height = "450"/>
 
 * 새로운 채팅 시작하기
-  * 원하는 코디네이터와 채팅을 진행 할 수 있다.
+  * 원하는 코디네이터와 채팅을 진행 할 수 있습니다.
   
   <나>
   <p float = "left">
@@ -80,8 +94,10 @@
   <img src="https://user-images.githubusercontent.com/73895803/107331107-c768d480-6af5-11eb-840a-4c486d680eb2.PNG" width = "235" height = "450"/>
   <img src="https://user-images.githubusercontent.com/73895803/107331108-c8016b00-6af5-11eb-8c75-24f78a53a596.PNG" width = "235" height = "450"/>
   </p><br />
+  
+  <img src="https://user-images.githubusercontent.com/73895803/107866493-f5169a80-6eb4-11eb-92e6-27a0785275de.gif" />
 
-* 더보기 메뉴에선 나의 정보들을 확인 및 수정이 가능하다.
+* 더보기 메뉴에선 나의 정보들을 확인 및 수정이 가능합니다.
 	* 내 정보
     * 대화명 수정 예시
   <p float = "left">
@@ -104,10 +120,13 @@
   <img src="https://user-images.githubusercontent.com/73895803/107336464-78726d80-6afc-11eb-807c-112041f9e518.PNG" width = "235" height = "450"/><p />
   
 	* 바디 프로필
-      * 사용자의 프로필을 바탕으로 코디네이터의 추천이 가능하다.
+      * 사용자의 프로필을 바탕으로 코디네이터의 추천이 가능합니다.
   <img src="https://user-images.githubusercontent.com/73895803/107336568-9770ff80-6afc-11eb-9c58-e01ed019e4b7.PNG" width = "235" height = "450"/>
   <img src="https://user-images.githubusercontent.com/73895803/107336574-98a22c80-6afc-11eb-9671-6b77dfc8952b.PNG" width = "235" height = "450"/><br />
 
 
 	* 문의 내역
+  <img src="https://user-images.githubusercontent.com/73895803/107865542-e75c1780-6eaa-11eb-9401-9bb4f0f3672e.PNG" width = "235" height = "450"/>
+  <img src="https://user-images.githubusercontent.com/73895803/107865544-e9be7180-6eaa-11eb-8554-9b895b69ff41.PNG" width = "235" height = "450"/>
+  <img src="https://user-images.githubusercontent.com/73895803/107865545-eb883500-6eaa-11eb-82b0-4ce48cdc1cdd.PNG" width = "235" height = "450"/>
 
